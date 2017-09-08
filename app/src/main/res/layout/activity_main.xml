@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harshadachavan.blinkingeffect.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_blink"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="@android:color/darker_gray"
+        android:padding="5dp"
+        android:text="This is FadeIn Animation"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49"
+        android:layout_marginBottom="67dp"
+        android:layout_above="@+id/animate"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/animate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Animation"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="326dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp" />
+
+</RelativeLayout>
